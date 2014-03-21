@@ -1,0 +1,16 @@
+.sidebar {
+  background-color: $sidebar-background-color;
+
+  .logo {
+    text-align: center;
+  }
+}
+
+.vertical-navigation {
+  margin-top: $some-random-space; // notice here
+  font-size: $medium-font-size;
+
+  .btn-nav {
+    margin-top: $sidebar-link-margin
+  }
+}
